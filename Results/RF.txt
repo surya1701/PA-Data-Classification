@@ -1,0 +1,9 @@
+07.11.2023 14:19:49 Results of ResultWriter 'Write as Text' [1]: 
+07.11.2023 14:19:49 PerformanceVector:
+accuracy: 55.92% +/- 1.75% (micro average: 55.92%)
+ConfusionMatrix:
+True:	Team1_Win	Team2_Win	Draw
+Team1_Win:	1963	750	705
+Team2_Win:	263	657	295
+Draw:	30	37	19
+
