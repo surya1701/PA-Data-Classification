@@ -33,3 +33,19 @@ The objective is to to predict the outcome of football matches before-hand by us
   <img src="Results/Screenshot 2023-11-11 231003.png" width="30%" />
   <img src="Results/Screenshot 2023-11-11 231023.png" width="30%" />
 </p>
+  
+## Folder Contents
+    .
+    ├── model.rmp               # RapidMiner model
+    ├── Final_Data.csv          # Combined dataset
+    ├── Final_Data_pre.csv      # Combined and pre-processed dataset
+    ├── Data Collection.ipynb   # Code for data cleaning and combining
+    ├── Football                # Football data
+    │   ├── ...                 # matches, squads, players, fifa ratings
+    ├── Countries               # Country-specific data
+    │   ├── ...                 # GDP, Population, Average years of schooling
+    ├── Results                 # Prediction files for individual models and Grid Search
+    │   ├── <model>.csv         # Training file
+    │   ├── <model>.txt         # Accuracy and Confusion Matrix
+    ├── KNN Scratch.ipynb       # Code for KNN implemented form scratch
+    └── ...
